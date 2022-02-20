@@ -4,11 +4,11 @@ import (
 	"math"
 )
 
-const SidesTriangle int = 3
-const SidesSquare int = 4
-const SidesCircle int = 0
-
 type sidesNumType int
+
+const SidesTriangle sidesNumType = 3
+const SidesSquare sidesNumType = 4
+const SidesCircle sidesNumType = 0
 
 func CalcSquare(sideLen float64, sidesNum sidesNumType) float64 {
 
